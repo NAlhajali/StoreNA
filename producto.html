@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>N & A Store</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="header">
+         <a href="index.html">
+          <img class="header__logo" src="img/logo.png" alt="Logotipo"> <!--siempre que haya un img logo hay que poner un alt-->
+         </a>
+     </header>  
+
+     <nav class="navegacion">
+         <a class="navegacion__enlace navegacion__enlace--activo" href="index.html">Tienda</a>
+         <a class="navegacion__enlace" href="nosotros.html">Nosotros</a>
+     </nav>
+     <main class="contenedor">
+        <h1>N&A I</h1>
+
+        <div class="camisa"> <!--padre-->
+
+            <img class="camisa__imagen" src="img/3.jpg" alt="Imagen del producto"> <!--imagen-->
+
+            <div class="camisa__contenido"> <!--contenido-->
+                <pa>Diseño de alta gama, la mejor calidad a tu medida, hecha a mano con doble costura.</pa>
+                <form class="formulario"> <!--formulario-->
+                    <select class="formulario__campo">
+                        <option disabled selected>selection size</option> <!-- opciones de tallas-->
+                       <option>Small</option> 
+                       <option>Medium</option>
+                       <option>large</option>
+                    </select>
+                    <input class="formulario__campo" type="number" placeholder="Quantity" min="1"> <!--opciones cantidad-->
+                    <input class="formulario__submit" type="submit" value="Agregar al Carrito"> <!-- agregar al carrito-->
+                </form>
+            </div>
+        </div>
+     </main>
+     <footer>
+        <p class="footer__texto">N & A Store - Todos los derechos reservados 2023.</p>
+     </footer>
+
+</body>
+</html>
